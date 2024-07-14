@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0A3463;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+h1 {
+    color: white;
+}
+
+.row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: none;
+}
+
+input::placeholder {
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-item {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.button-item:hover {
+    background-color: black;
+    color: white;
+}
+
+.li-item {
+    list-style: none;
+}
+
+.li-div {
+    width: 500px;
+    height: 100px;
+    background-color: #98d6ed;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.li-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
+.btn-div {
+    display: flex;
+    gap: 5px;
+}
+
+.delete-btn {
+    width: 70px;
+    height: 20px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.fix-btn {
+    width: 70px;
+    height: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.fix-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.del-btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+    position: relative;
+    left: 60vh;
+    cursor: pointer;
+}
+
+.del-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.delete-items-value {
+    width: 500px;
+    height: 100px;
+    background-color: #54c0f0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    list-style: none;
+}
+
+.complete-items-value {
+    width: 500px;
+    height: 100px;
+    background-color: #5696e3;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    list-style: none;
+    text-decoration: line-through;
+}
